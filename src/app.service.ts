@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
-  private idJourney = '63ef17418240657a26772e4b';
+  private idJourney = '63f3c844ad5aec3bd5b17bbd';
   getHome(): string {
     return '<h1>SDK-TS Dummy Project</h1>' +
       '<ul>'+
